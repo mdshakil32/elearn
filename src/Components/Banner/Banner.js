@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css';
-import { faHome,faSearch,faBook,faUser,faUserLock,faUsers } from "@fortawesome/free-solid-svg-icons";
+import { faSearch,faBook,faUserLock,faUsers } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import bannerImg from "../../assets/banner//banner2.png"
 
