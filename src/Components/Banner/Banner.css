@@ -1,0 +1,22 @@
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.banner-inner {
+  /* z-index: 5; */
+}
+.banner-mask {
+  width: 100%;
+  position: absolute;
+  height: 200px;
+  pointer-events: none;
+  -webkit-mask-image: url("../../../src/assets/banner/download.svg");
+  mask-image: url("../../../src/assets/banner/download.svg");
+  -webkit-mask-size: 100% 101%;
+  mask-size: 100% 101%;
+  /* background: #4950ba; */
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
